@@ -190,7 +190,7 @@ img, audio, video {
   Major Sixth Modular Scale:
   http://www.modularscale.com/?22&px&1.667&web&text
 */
-
+ 
 html {
   font-size: 1.375em; /* 22px */
   line-height: 1.182em; /* 26px / ~ 120% */
@@ -201,6 +201,23 @@ html {
 label {
   display: block;
 }
+form {
+  border-radius: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+body {
+    text-align: center;
+}
+form {
+    display: inline-block;
+}
+input[type=text], select {
+color:DC143C;
+}
+input, textarea {
+            background-color: #A9A9A9;
+        }
 
 /* ===== LAYOUT STYLES ====== */
 
