@@ -219,6 +219,22 @@ input, textarea {
             background-color: #A9A9A9;
         }
 
+		h1{
+			font-size: 3.821em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+		}
+body {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+		
 /* ===== LAYOUT STYLES ====== */
 
 
