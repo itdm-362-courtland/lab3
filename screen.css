@@ -212,16 +212,17 @@ body {
 form {
     display: inline-block;
 }
+
 input[type=text], select {
 color:DC143C;
 }
+
 input, textarea {
             background-color: #A9A9A9;
         }
 
-		h1{
-			font-size:
-1.375em; /* 22px */
+h1{
+   font-size: 1.375em; /* 22px */
    margin-bottom: 0.3092em;
 		}
 body {
